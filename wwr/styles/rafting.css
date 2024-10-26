@@ -265,7 +265,7 @@ footer p {
 .form input:not([type="radio"]), .form textarea {
   margin: 1rem 0;
   padding: 0.5rem;
-  border: 2px solid var(--accent-primary);
+  border: 2px solid var(--accent-secondary);
   color: var(--secondary);
 }
 
@@ -354,22 +354,20 @@ input[type="radio"],input[type="checkbox"] {
   padding: 5px;
 }
 
-.company-info {
-  color: var(--accent-primary);
-}
-
-.address {
-  color: var(--accent-primary);
-}
-
-.accent-primary {
+.accent-primary,.address,.company-info {
   color: var(--accent-primary);
 }
 
 .accent-secondary {
   color: var(--accent-secondary);
+  opacity: 2;
 }
 
 .padding-1 {
   padding: 1rem;
+}
+
+iframe {
+  background-color: red;
+  color: black;
 }
