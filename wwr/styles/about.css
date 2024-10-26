@@ -1,0 +1,112 @@
+/* hero */
+.hero {
+  position: relative;
+  border:  1px solid var(--secondary);
+  border-bottom: 0px;
+}
+
+.hero>img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 15%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
+.hero article {
+  position: absolute;
+  top: 45%; 
+  transform: translate(-50%, -50%); 
+  left: 50%;
+  width:80%;
+  background-color: rgba(2, 48, 71, 0.6); ; /*var(--primary) in rgba to add opacity*/
+}
+
+.hero article p {
+  color: var(--accent-primary);
+  font-weight: bold;
+}
+
+.hero article img {
+  float: right;
+  padding: 20px;
+}
+
+/* history section */
+#history {
+  background-color: var(--accent-primary);
+  border: 1px solid var(--secondary);
+  border-bottom: 0;
+  border-top: 0;
+  padding: 20px;
+}
+
+#history .container {
+  display: flex;
+  font-size: 1rem;
+}
+
+#history h2 {
+  background-color: rgba(255, 145, 0, 0.495);
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  width: 100%;
+  color: var(--secondary);
+  text-align: center;
+}
+
+#history img {
+  width: 50%;
+  height: auto;
+  padding: 10px 20px;
+}
+
+/* adventure section */
+#adventure {
+  background-color: var(--primary);
+  border: 1px solid var(--secondary);
+  border-bottom: 0;
+  border-top: 0;
+  padding: 20px 10px;
+}
+
+#adventure .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#adventure figure {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#adventure figcaption {
+  font-weight: bold;
+  text-shadow: 1px 1px 0px black;
+  background-color: rgba(2, 48, 71, 0.071);
+  color: var(--accent-primary);
+}
+
+#adventure h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: rgba(2, 48, 71, 0.6);
+  color: var(--accent-primary);
+}

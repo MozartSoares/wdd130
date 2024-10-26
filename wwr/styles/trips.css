@@ -1,0 +1,56 @@
+.trips-intro {
+    padding: 40px 20px;
+    background-color: #1C3B70;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.trips-intro h1 {
+    font-size: 2.5em;
+    color: #F6B80B;
+    margin-bottom: 15px;
+}
+
+.trips-intro p {
+    font-size: 1.2em;
+}
+
+.trip-options {
+    padding: 40px 20px;
+    background-color: #4FAFD2;
+}
+
+.trip {
+    background-color: #1C3B70;
+    color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.trip h2 {
+    font-size: 1.8em;
+    color: #F6B80B;
+    margin-bottom: 10px;
+}
+
+.trip p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.trip p strong {
+    color: #F6B80B;
+}
+
+
+/* Information on trip levels and difficulty
+• Detailed descriptions of what to expect during the trip
+• Testimonials and reviews from previous customers
+• Information on family-friendly trips and age restrictions
+• Details on safety measures and equipment provided
+• Options for booking a private guide or group trip
+• Recommendations for nearby activities and attractions for non-rafters
+• High-quality photos and videos showcasing the trip
+• Options for customizing the trip (e.g., private guides, camping) */
