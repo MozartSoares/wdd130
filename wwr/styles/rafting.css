@@ -133,10 +133,12 @@ header nav a:nth-child(3) {
 }
 
 #history h2 {
+  background-color: rgba(255, 145, 0, 0.495);
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: 2px;
   width: 100%;
+  color: var(--secondary);
   text-align: center;
 }
 
@@ -169,18 +171,20 @@ header nav a:nth-child(3) {
 
 #adventure figcaption {
   font-weight: bold;
-  color: var(--accent-secondary);
   text-shadow: 1px 1px 0px black;
+  background-color: rgba(2, 48, 71, 0.071);
+  color: var(--accent-primary);
 }
 
 #adventure h2 {
-  color: var(--accent-primary);
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: 2px;
   width: 100%;
   text-align: center;
   margin-bottom: 10px;
+  background-color: rgba(2, 48, 71, 0.6);
+  color: var(--accent-primary);
 }
 
 /* footer */
