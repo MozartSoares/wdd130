@@ -49,10 +49,10 @@
     font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.2s ease;
 }
 
-.cta-button:hover {
+.home-hero .cta-button:hover {
     background-color: #e0a409;
 }
 
@@ -163,7 +163,7 @@
     border-radius: 4px;
     font-size: 1em;
     cursor: pointer; 
-    transition: transform 0.3s ease;
+    transition: transform 0.1s ease;
 }
 
 .newsletter-signup button:hover {
@@ -189,12 +189,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
-}
-
-.gallery-images img {
-    border-radius: 8px;
-    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
 }
 
 .gallery {
