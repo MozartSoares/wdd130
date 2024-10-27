@@ -379,6 +379,7 @@ input[type="radio"],input[type="checkbox"] {
   opacity: 2;
 }
 iframe {
+  width: 200px;
   background-color: var(--secondary);
   border: 1px solid var(--accent-secondary);
   color: black;
